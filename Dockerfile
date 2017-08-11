@@ -9,3 +9,6 @@ RUN sudo apt-get install postgresql-client-9.5
 
 # fonts
 RUN sudo apt-get install fontconfig fonts-migmix
+
+# phantomjs
+COPY phantomjs /usr/local/bin
