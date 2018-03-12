@@ -17,7 +17,7 @@ RUN sudo apt-get update
 RUN sudo apt-get install google-chrome-stable
 
 # Chrome Driver
-RUN sudo wget https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip
+RUN sudo wget https://chromedriver.storage.googleapis.com/2.36/chromedriver_linux64.zip
 RUN sudo unzip chromedriver_linux64.zip
 RUN sudo rm chromedriver_linux64.zip
 RUN sudo mv chromedriver /usr/bin/
