@@ -1,4 +1,4 @@
-FROM circleci/ruby:2.6.1-node
+FROM circleci/ruby:2.6.2-node
 MAINTAINER <ak.hisashi@gmail.com>
 
 # PostgreSQL9.5
